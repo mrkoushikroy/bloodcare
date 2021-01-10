@@ -1,0 +1,38 @@
+.loader5 {
+    display:inline-block;
+    width: 0;
+      height:0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid #4183D7;
+    border-top: 10px solid #F5AB35;
+     -webkit-animation: loader5 1.2s ease-in-out infinite alternate;
+     animation: loader5 1.2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes loader5 {
+     from {transform: rotate(0deg);}
+     to {transform: rotate(720deg);}
+  }
+  @-webkit-keyframes loader5 {
+     from {-webkit-transform: rotate(0deg);}
+     to {-webkit-transform: rotate(720deg);}
+  }
+  .second-login{
+background-image: url("img/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+.comment img{
+     width: 50px !important;
+   height: 50px !important; 
+   }
+
+   
+.taboay label{
+    margin: 4px 1px !important;
+  }
+.taboay input{
+    margin: 4px 1px !important;
+  }
